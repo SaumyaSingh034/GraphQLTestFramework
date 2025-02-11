@@ -29,6 +29,7 @@ public class HitPostRequest {
         int statusCode = response.getStatusCode();
         JsonPath js = new JsonPath(response.asString());
         js.get("");
+
     }
 
     @Test
