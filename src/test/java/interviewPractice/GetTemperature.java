@@ -2,6 +2,7 @@ package interviewPractice;
 
 import com.fasterxml.jackson.databind.util.JSONPObject;
 import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 import org.testng.annotations.Test;
 import requestBody.RequestBody;
 
@@ -9,6 +10,7 @@ public class GetTemperature {
     @Test
     public void testInterview(){
         String response = RequestBody.requestBody5;
+
         JsonPath js = new JsonPath(response);
         int size = js.getInt("cities.size()");
 
