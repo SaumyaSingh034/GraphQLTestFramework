@@ -5,4 +5,5 @@ public class RequestBody {
     public static String requestBody2 = "{\"workspace\":{\"name\":\"workspace\",\"id\":\"X123\"}}";
     public static String requestBody3 = "{\"request\":{\"method\":\"GET\",\"url\":\"/us/90210\"},\"response\":{\"status\":200,\"headers\":{\"Content-Type\":\"application/json\"},\"jsonBody\":{\"postcode\":\"90210\",\"country\":\"UnitedStates\",\"countryabbreviation\":\"US\",\"places\":[{\"placename\":\"BeverlyHills\",\"longitude\":\"-118.4065\",\"state\":\"California\",\"stateabbreviation\":\"CA\",\"latitude\":\"34.0901\"}]}}}";
     public static String requestBody4 = "{\"dashboard\":{\"purchaseAmount\":910,\"website\":\"rahulshettyacademy.com\"},\"courses\":[{\"title\":\"SeleniumPython\",\"price\":50,\"copies\":6},{\"title\":\"Cypress\",\"price\":40,\"copies\":4},{\"title\":\"RPA\",\"price\":45,\"copies\":10}]}";
+    public static String requestBody5 = "{\"cities\":[{\"name\":\"Delhi\",\"temp\":42},{\"name\":\"Mumbai\",\"temp\":35},{\"name\":\"Bangalore\",\"temp\":38},{\"name\":\"Chennai\",\"temp\":41},{\"name\":\"Kolkata\",\"temp\":39}]}";
 }
